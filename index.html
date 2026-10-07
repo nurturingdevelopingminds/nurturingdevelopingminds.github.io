@@ -13,34 +13,34 @@
     body { font-family: 'Inter', sans-serif; }
     h1, h2, h3 { font-family: 'Merriweather', serif; }
     p { line-height: 1.7; }
+    section { scroll-margin-top: 160px; }
     h2, h3 { letter-spacing: 0.5px; }
   </style>
 </head>
 <body class="bg-white text-gray-900">
   <!-- Navbar -->
   <header class="fixed w-full bg-white backdrop-blur-md shadow-md border-b border-purple-950 z-50">
-    <div class="max-w-6xl mx-auto px-8 py-4 flex justify-between items-center">
+    <div class="max-w-6xl mx-auto px-6 py-4 flex flex-col lg:flex-row justify-between items-center gap-3">
       <h1 class="text-xl font-bold">Nurturing Developing Minds</h1>
-      <nav class="space-x-6">
+      <nav aria-label="Main navigation" class="flex flex-wrap justify-center gap-x-5 gap-y-2 text-sm">
         <a href="#home" class="font-semibold text-gray-900 hover:text-purple-950 transition underline-animation">Home</a>
         <a href="#services" class="font-semibold text-gray-900 hover:text-purple-950 transition underline-animation">Services</a>
-        <a href="#diagnosis" class="font-semibold text-gray-900 hover:text-purple-950 transition underline-animation">Diagnosis</a>
         <a href="#research" class="font-semibold text-gray-900 hover:text-purple-950 transition underline-animation">Research & Recognition</a>
-        <a href="#careers" class="font-semibold text-gray-900 hover:text-purple-950 transition underline-animation">Careers</a>
+        <a href="#careers" class="font-semibold text-gray-900 hover:text-purple-950 transition underline-animation">We Are Hiring</a>
         <a href="#about" class="font-semibold text-gray-900 hover:text-purple-950 transition underline-animation">About</a>
         <a href="#contact" class="font-semibold text-gray-900 hover:text-purple-950 transition underline-animation">Book a Call</a>
       </nav>
     </div>
   </header>
   
-  <main class="pt-24 max-w-4xl mx-auto">
+  <main class="pt-40 lg:pt-24 max-w-4xl mx-auto">
     <!-- Home Section -->
     <section id="home" class="py-20 text-center px-8 bg-purple-50 rounded-b-3xl shadow-inner">
       <div class="max-w-4xl mx-auto">
         <div class="w-16 h-1 bg-gradient-to-r from-purple-950 to-purple-900 mx-auto mb-4"></div>
         <h2 data-animate class="text-4xl md:text-7xl leading-tight font-semibold text-purple-950 transform transition-all duration-700 ease-out">Welcome to Nurturing Developing Minds</h2>
         <p class="mt-6 text-lg md:text-xl text-gray-700 font-normal">
-          Empowering infants and toddlers to reach their fullest potential through play-based learning.
+          Nurturing Potential. Empowering Futures.<br />Individualized, play-based developmental therapy for infants and toddlers ages 0–3. Support today. Brighter tomorrows.
         </p>
         <a data-animate href="#contact" class="inline-block mt-8 px-6 py-3 bg-gradient-to-r from-purple-950 to-purple-900 font-semibold tracking-wide text-white rounded-lg shadow hover:shadow-lg transition hover:scale-105 transform transition-all duration-700 ease-out">Book a Tour</a>
       </div>
@@ -54,7 +54,7 @@
         <!-- Therapy Card -->
         <div data-animate class=" p-6 bg-white rounded-2xl shadow-md border-l-4 border-purple-900 transform transition-all duration-700 ease-out">
           <h3 class="text-xl font-medium mb-2">One-on-One Developmental Therapy</h3>
-          <p class="text-gray-600 font-normal">Expert-led sessions tailored to each child’s developmental needs.</p>
+          <p class="text-gray-600 font-normal">Individualized, child-centered sessions that build on each child’s unique strengths and needs. We support development, learning, communication, social-emotional skills, independence, and participation in family and community routines.</p>
         </div>
         <!-- Group Card -->
         <div data-animate class="p-6 bg-white rounded-2xl shadow-md border-l-4 border-purple-900 transform transition-all duration-700 ease-out">
@@ -64,14 +64,13 @@
         <!-- Coaching Card -->
         <div data-animate class="p-6 bg-white rounded-2xl shadow-md border-l-4 border-purple-900 transform transition-all duration-700 ease-out">
           <h3 class="text-xl font-medium mb-2">Parent Coaching</h3>
-          <p class="text-gray-600 font-normal">Guidance and support for families to reinforce learning at home.</p>
-        </div>
-        <!-- Diagnosis Card -->
-        <div data-animate class="p-6 bg-white rounded-2xl shadow-md border-l-4 border-purple-900 transform transition-all duration-700 ease-out">
-          <h3 class="text-xl font-medium mb-2">Diagnosis</h3>
-          <p class="text-gray-600 font-normal">Provides prompt and accurate autism diagnosis by certified developmental therapists.</p>
+          <p class="text-gray-600 font-normal">We work with families to create meaningful goals, reinforce learning at home, and build lasting progress. Your child’s success is our success.</p>
         </div>
       </div>
+<div class="mt-10 space-y-8">
+<div class="p-6 bg-white rounded-2xl shadow-md border-l-4 border-purple-900"><h3 class="text-xl font-semibold text-purple-950 mb-3">Who We Serve</h3><p class="text-gray-700">Infants and toddlers ages 0–3, including children with neurodiversity, behavior challenges, and physical disabilities. Every child has potential. We’re here to help them thrive.</p></div>
+<div class="p-6 bg-white rounded-2xl shadow-md border-l-4 border-purple-900"><h3 class="text-xl font-semibold text-purple-950 mb-3">Our Approach</h3><ul class="list-disc pl-5 space-y-2 text-gray-700"><li>Play-Based Learning: Children learn best through play.</li><li>Whole Child Focus: We consider the whole child and their family.</li><li>Small, Meaningful Steps: Building skills for long-term success.</li><li>Flexible Service Delivery: Home, daycare, park, community settings, or mutually agreed locations.</li><li>Family Collaboration: Together, we create meaningful goals and lasting progress.</li></ul></div>
+</div>
     </section>
 
     <!-- Research & Recognition Section -->
@@ -89,7 +88,7 @@
           <div id="excel-content" class="px-4 py-3 hidden">
               
               <div class="mt-4 text-right">
-                <a data-animate href="https://marshallblaise.github.io/NDM/index.html" class="inline-block px-6 py-3 border-2 border-purple-900 font-semibold tracking-wide text-purple-900 rounded-lg shadow hover:bg-gradient-to-r from-purple-950 to-purple-900 hover:text-white transition hover:scale-105">
+                <a data-animate href="mailto:Nurturingdevelopingminds@gmail.com?subject=Developmental%20Therapist%20Application" class="inline-block px-6 py-3 border-2 border-purple-900 font-semibold tracking-wide text-purple-900 rounded-lg shadow hover:bg-gradient-to-r from-purple-950 to-purple-900 hover:text-white transition hover:scale-105">
                   Apply Now
                 </a>
               </div>
@@ -103,7 +102,24 @@
       </div>
     </section>
 
-    <!-- Careers Section removed -->
+    <section id="careers" class="py-20 px-8 bg-purple-50">
+<div class="w-16 h-1 bg-gradient-to-r from-purple-950 to-purple-900 mx-auto mb-4"></div>
+<h2 class="text-3xl md:text-5xl font-semibold mb-4 text-center">We Are Hiring</h2>
+<p class="text-center text-purple-950 font-semibold mb-2">Make a Difference Every Day!</p>
+<p class="text-center text-gray-700 mb-8">Join our team and help children grow, learn, and thrive. Be part of a team that believes in every child’s potential.</p>
+<div class="p-6 bg-white rounded-2xl shadow-md border-l-4 border-purple-900"><h3 class="text-xl font-semibold text-purple-950 mb-3">Developmental Therapist</h3><p class="text-gray-700">Make a lasting impact by supporting children with developmental delays, neurodiversity, and special needs.</p></div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-8 mt-8">
+<div class="p-6 bg-white rounded-2xl shadow-md border-l-4 border-purple-900"><h3 class="text-xl font-semibold text-purple-950 mb-3">What We’re Looking For</h3><ul class="list-disc pl-5 space-y-2 text-gray-700"><li>Passion for working with young children and families.</li><li>Experience in early childhood, therapy, or related fields (preferred).</li><li>Bachelor’s degree or higher in Early Childhood Education, Child Development, Elementary Education, or Special Education.</li><li>Strong communication and teamwork skills.</li><li>Positive, patient, and dedicated.</li></ul></div>
+<div class="p-6 bg-white rounded-2xl shadow-md border-l-4 border-purple-900"><h3 class="text-xl font-semibold text-purple-950 mb-3">Why Join Us?</h3><ul class="list-disc pl-5 space-y-2 text-gray-700"><li>Supportive and collaborative team.</li><li>Ongoing training and professional development.</li><li>Meaningful work with lasting impact.</li><li>Flexible schedules.</li><li>Credentialing support: We’ll help you through the credentialing process.</li></ul></div>
+</div>
+<div class="mt-8 p-6 bg-white rounded-2xl text-center">
+<h3 class="text-xl font-semibold text-purple-950 mb-3">Apply Today!</h3>
+<p class="text-gray-700 mb-3">Send your résumé to <a class="text-purple-950 underline break-all" href="mailto:Nurturingdevelopingminds@gmail.com?subject=Developmental%20Therapist%20Application">Nurturingdevelopingminds@gmail.com</a>.</p>
+<p class="text-gray-700">Phone: <a href="tel:+17087948640" class="underline">708-794-8640</a><br />Location: Flossmoor, Illinois</p>
+<a href="mailto:Nurturingdevelopingminds@gmail.com?subject=Developmental%20Therapist%20Application" class="inline-block mt-5 px-6 py-3 bg-purple-950 text-white rounded-lg font-semibold">Email Your Résumé</a>
+<p class="mt-5 text-purple-950 font-semibold">Together We Build Brighter Futures</p>
+</div>
+</section>
 
     <!-- About Section -->
     <section id="about" class="py-20 bg-gray-50 px-8">
@@ -128,14 +144,15 @@
       <h2 data-animate class="text-3xl md:text-5xl leading-tight font-semibold mb-4 transform transition-all duration-700 ease-out text-center">Book a Call</h2>
       <div class="max-w-3xl mx-auto text-center">
         <p class="text-gray-700 mb-6 font-normal">
-          Schedule a call with our founder, Stacey Richardson-Ellis, to discuss your child’s development.
+          Request a call with our founder, Stacey Richardson-Ellis, to discuss your child’s development.
         </p>
+        <p class="text-gray-700 mb-6">Email: <a href="mailto:Nurturingdevelopingminds@gmail.com" class="underline break-all">Nurturingdevelopingminds@gmail.com</a><br />Phone: <a href="tel:+17084081320" class="underline">708-408-1320</a><br />Location: Flossmoor, Illinois</p>
         <form action="https://formsubmit.co/Nurturingdevelopingminds@gmail.com" method="POST" class="space-y-4">
           <input type="hidden" name="_subject" value="New call request — Nurturing Developing Minds" />
           <input data-animate type="text" name="name" autocomplete="name" aria-label="Your Name" required placeholder="Your Name" class="w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-purple-950 transform transition-all duration-700 ease-out font-normal" />
           <input data-animate type="email" name="email" autocomplete="email" aria-label="Your Email" required placeholder="Your Email" class="w-full px-4 py-3	border rounded-lg focus:ring-2 focus:ring-purple-950 transform transition-all duration-700 ease-out font-normal" />
           <textarea data-animate name="message" aria-label="Preferred Call Times or Questions" required placeholder="Preferred Call Times or Questions" class="w-full px-4 py-3	border rounded-lg h-32 focus:ring-2 focus:ring-purple-950 transform transition-all duration-700 ease-out font-normal"></textarea>
-          <button data-animate type="submit" class="w-full py-3 bg-gradient-to-r from-purple-950 to-purple-900 font-semibold tracking-wide text-white rounded-lg shadow hover:shadow-lg transition hover:scale-105 transform transition-all duration-700 ease-out">Schedule Call</button>
+          <button data-animate type="submit" class="w-full py-3 bg-gradient-to-r from-purple-950 to-purple-900 font-semibold tracking-wide text-white rounded-lg shadow hover:shadow-lg transition hover:scale-105 transform transition-all duration-700 ease-out">Request a Call</button>
         </form>
       </div>
     </section>
@@ -148,7 +165,7 @@
         <p class="font-semibold text-xl text-gray-900 mb-4">
           Join our passionate team at Nurturing Developing Minds—apply today and make a difference in children’s lives.
         </p>
-        <a href="https://marshallblaise.github.io/NDM/index.html" class="inline-block px-6 py-3 bg-purple-950 text-white font-semibold rounded-lg shadow hover:opacity-90 transition">
+        <a href="mailto:Nurturingdevelopingminds@gmail.com?subject=Developmental%20Therapist%20Application" class="inline-block px-6 py-3 bg-purple-950 text-white font-semibold rounded-lg shadow hover:opacity-90 transition">
           Apply Now
         </a>
       </div>
